@@ -4,3 +4,6 @@
   tasks:
   - name: Installing git package
     yum: name=git state=latest
+  - name: Installing java package
+    yum: name=java state=present
+
